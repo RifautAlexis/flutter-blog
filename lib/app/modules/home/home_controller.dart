@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_blog/app/data/model/article_summary.dart';
 import 'package:flutter_blog/app/data/provider/article_provider.dart';
 import 'package:flutter_blog/app/modules/home/home_repository.dart';
@@ -9,10 +10,21 @@ class HomeController extends GetxController
 
   HomeController(homeRepository);
 
+  final ScrollController articleListController = ScrollController();
+
   @override
   void onInit() {
-    _fetchAllArticles();
     super.onInit();
+
+    _fetchAllArticles();
+
+    articleListController.addListener(() {
+      print(articleListController.position.pixels);
+      print(articleListController.position.maxScrollExtent);
+      if(articleListController.position.pixels == articleListController.position.maxScrollExtent) {
+        print("You reached the end !");
+      }
+    });
   }
 
   void _fetchAllArticles() {

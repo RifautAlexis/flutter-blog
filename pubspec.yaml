@@ -40,6 +40,8 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^1.0.0
   get: ^4.3.8
+  collection: ^1.15.0
+  intl: ^0.17.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

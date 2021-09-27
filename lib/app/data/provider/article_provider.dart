@@ -14,7 +14,7 @@ class ArticleProvider extends GetConnect {
           title: 'Short title 01',
           description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi eget mauris pharetra et ultrices neque.",
-          authorId: 1,
+          authorName: "Alexis Rifaut",
           createdAt: DateTime(2021, 01, 15),
           updatedAt: DateTime(2021, 01, 29)),
       ArticleSummary(
@@ -23,7 +23,7 @@ class ArticleProvider extends GetConnect {
               'Medium title 01, so I add a bit of blabla and blabla and lastly blabla',
           description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi eget mauris pharetra et ultrices neque.",
-          authorId: 1,
+          authorName: "Alexis Rifaut",
           createdAt: DateTime(2021, 01, 20),
           updatedAt: DateTime(2021, 03, 05)),
       ArticleSummary(
@@ -31,7 +31,7 @@ class ArticleProvider extends GetConnect {
         title: 'Short title 02',
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi eget mauris pharetra et ultrices neque.",
-        authorId: 1,
+        authorName: "Alexis Rifaut",
         createdAt: DateTime(2021, 02, 01),
       ),
       ArticleSummary(
@@ -40,7 +40,7 @@ class ArticleProvider extends GetConnect {
             'I am a big big big title 04, so I take so much place. I add a bit of blabla and blabla and lastly blabla',
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi eget mauris pharetra et ultrices neque.",
-        authorId: 1,
+        authorName: "Alexis Rifaut",
         createdAt: DateTime(2021, 04, 21),
       ),
       ArticleSummary(
@@ -49,7 +49,7 @@ class ArticleProvider extends GetConnect {
             'Medium title 02, so I add a bit of blabla and blabla and lastly blabla',
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi eget mauris pharetra et ultrices neque.",
-        authorId: 1,
+        authorName: "Alexis Rifaut",
         createdAt: DateTime(2021, 07, 16),
       ),
       ArticleSummary(
@@ -58,7 +58,7 @@ class ArticleProvider extends GetConnect {
               'Medium title 03, so I add a bit of blabla and blabla and lastly blabla',
           description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi eget mauris pharetra et ultrices neque.",
-          authorId: 1,
+          authorName: "Alexis Rifaut",
           createdAt: DateTime(2021, 09, 11),
           updatedAt: DateTime(2021, 10, 14)),
       ArticleSummary(
@@ -66,7 +66,7 @@ class ArticleProvider extends GetConnect {
           title: 'Short title 03',
           description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi eget mauris pharetra et ultrices neque.",
-          authorId: 1,
+          authorName: "Alexis Rifaut",
           createdAt: DateTime(2021, 05, 06),
           updatedAt: DateTime(2021, 05, 07)),
       ArticleSummary(
@@ -74,7 +74,7 @@ class ArticleProvider extends GetConnect {
         title: 'Short title 04',
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi eget mauris pharetra et ultrices neque.",
-        authorId: 1,
+        authorName: "Alexis Rifaut",
         createdAt: DateTime(2021, 01, 05),
       ),
       ArticleSummary(
@@ -83,7 +83,7 @@ class ArticleProvider extends GetConnect {
             'Medium title 04, so I add a bit of blabla and blabla and lastly blabla',
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi eget mauris pharetra et ultrices neque.",
-        authorId: 1,
+        authorName: "Alexis Rifaut",
         createdAt: DateTime(2021, 03, 03),
       ),
       ArticleSummary(
@@ -92,7 +92,7 @@ class ArticleProvider extends GetConnect {
               'Medium title 05, so I add a bit of blabla and blabla and lastly blabla',
           description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi eget mauris pharetra et ultrices neque.",
-          authorId: 1,
+          authorName: "Alexis Rifaut",
           createdAt: DateTime(2021, 06, 17),
           updatedAt: null),
       ArticleSummary(
@@ -101,7 +101,7 @@ class ArticleProvider extends GetConnect {
               'Medium title 06, so I add a bit of blabla and blabla and lastly blabla',
           description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi eget mauris pharetra et ultrices neque.",
-          authorId: 1,
+          authorName: "Alexis Rifaut",
           createdAt: DateTime(2021, 06, 12),
           updatedAt: null),
       ArticleSummary(
@@ -110,7 +110,7 @@ class ArticleProvider extends GetConnect {
               'I am a big big big title 03, so I take so much place. I add a bit of blabla and blabla and lastly blabla',
           description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi eget mauris pharetra et ultrices neque.",
-          authorId: 1,
+          authorName: "Alexis Rifaut",
           createdAt: DateTime(2021, 01, 02),
           updatedAt: null),
       ArticleSummary(
@@ -119,7 +119,7 @@ class ArticleProvider extends GetConnect {
               'I am a big big big title 02, so I take so much place. I add a bit of blabla and blabla and lastly blabla',
           description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi eget mauris pharetra et ultrices neque.",
-          authorId: 1,
+          authorName: "Alexis Rifaut",
           createdAt: DateTime(2021, 09, 28),
           updatedAt: null),
       ArticleSummary(
@@ -127,7 +127,7 @@ class ArticleProvider extends GetConnect {
           title: 'Short title 05',
           description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi eget mauris pharetra et ultrices neque.",
-          authorId: 1,
+          authorName: "Alexis Rifaut",
           createdAt: DateTime(2021, 04, 12),
           updatedAt: DateTime(2021, 04, 15)),
       ArticleSummary(
@@ -136,7 +136,7 @@ class ArticleProvider extends GetConnect {
               'I am a big big big title 01, so I take so much place. I add a bit of blabla and blabla and lastly blabla',
           description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi eget mauris pharetra et ultrices neque.",
-          authorId: 1,
+          authorName: "Alexis Rifaut",
           createdAt: DateTime(2021, 10, 14),
           updatedAt: DateTime(2021, 11, 19)),
     ];
@@ -153,7 +153,7 @@ class ArticleProvider extends GetConnect {
           'I am a big big big title 01, so I take so much place. I add a bit of blabla and blabla and lastly blabla',
       description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi eget mauris pharetra et ultrices neque.",
-      authorId: 1,
+      authorName: "Alexis Rifaut",
       createdAt: DateTime(2021, 10, 14),
       updatedAt: DateTime(2021, 11, 19),
       content:

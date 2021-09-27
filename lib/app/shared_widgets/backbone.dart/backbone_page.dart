@@ -15,37 +15,36 @@ class BackbonePage extends GetResponsiveView<MyController> {
 
   @override
   Widget builder() {
-    _initPaddingPage();
+    // _initPaddingPage();
 
     return Scaffold(
       appBar: AppBar(title: const Text('BackbonePage')),
-      body: SafeArea(
-        child: SingleChildScrollView(
-          child: Padding(
-            padding: EdgeInsets.symmetric(horizontal: paddingPage!),
-            child: body,
-          ),
+      body:
+      SafeArea(
+        child:
+        SingleChildScrollView(
+          child: body,
         ),
       ),
     );
   }
 
-  _initPaddingPage() {
-    if (paddingPage == null) {
-      switch (screen.screenType) {
-        case ScreenType.Desktop:
-          paddingPage = 25;
-          break;
-        case ScreenType.Tablet:
-          paddingPage = 25;
-          break;
-        case ScreenType.Phone:
-          paddingPage = 25;
-          break;
-        default:
-      }
-    } else {
-      paddingPage = paddingPage;
-    }
-  }
+  // _initPaddingPage() {
+  //   if (paddingPage == null) {
+  //     switch (screen.screenType) {
+  //       case ScreenType.Desktop:
+  //         paddingPage = screen.context.heightTransformer(dividedBy: 4);
+  //         break;
+  //       case ScreenType.Tablet:
+  //         paddingPage = screen.context.heightTransformer(dividedBy: 4);
+  //         break;
+  //       case ScreenType.Phone:
+  //         paddingPage = screen.context.heightTransformer(dividedBy: 4);
+  //         break;
+  //       default:
+  //     }
+  //   } else {
+  //     paddingPage = paddingPage;
+  //   }
+  // }
 }

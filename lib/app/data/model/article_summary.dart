@@ -13,7 +13,7 @@ class ArticleSummary {
   late final int id;
   late final String title;
   late final String description;
-  late final int authorId;
+  late final String authorName;
   late final DateTime createdAt;
   late final DateTime? updatedAt;
 
@@ -21,7 +21,7 @@ class ArticleSummary {
     required this.id,
     required this.title,
     required this.description,
-    required this.authorId,
+    required this.authorName,
     required this.createdAt,
     this.updatedAt,
   });
@@ -30,7 +30,7 @@ class ArticleSummary {
     id = json['id'];
     title = json['title'];
     description = json['description'];
-    authorId = json['authorId'];
+    authorName = json['authorName'];
     createdAt = DateTime.parse(json['createdAt'].toString());
     updatedAt = json['updatedAt'] == null
         ? null
@@ -42,7 +42,7 @@ class ArticleSummary {
       'id': id,
       'title': title,
       'description': description,
-      'authorId': authorId,
+      'authorName': authorName,
       'createdAt': createdAt.toIso8601String(),
       'updatedAt': updatedAt?.toIso8601String(),
     };
